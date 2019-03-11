@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!-- meta to disable auto phone detection on mobile phones or leave out   -->
+<meta name="format-detection" content="telephone=no">
+
+<body>
+
+<section class="container">
+ 
+  <div class="row">
+    
+    
+<div class="leftcolumn" >
+<article>
+<h1>GENIUS FOR HIRE</h1>
+ 
+ <!-- button calls href number or system asks for preferred app -->
+<div>
+ <a href="tel:+1-408-555-5555">
+<button type="button" class="btn btn-primary btn-lg btn3d"  style="height: 110px; background: linear-gradient(#2a3240, #0c0e12, #55637f);">
+       <!-- added glyphicon phone icon  -->
+   <span class="glyphicon glyphicon-earphone"></span> 
+       <!--add wording on button here   -->
+     CALL SANDY STUDIOS</button></a>
+</div> 
+     <div><br></div>
+<!-- SMS TEXT button types text /texts href number or system asks for preferred app -->
+<div>
+  <a  href="sms:1-408-555-1212" >
+    <!--large call button css changes bootstrap primary color /button height is also adjusted  -->
+   <button type="button" class="btn btn-primary btn-lg btn3d" style="height: 100px; background: linear-gradient(#2a3240, #0c0e12, #55637f);">
+       <!-- added glyphicon phone icon  -->
+   <span class="glyphicon glyphicon-phone"></span> 
+       <!--add wording on button below in js script   -->
+     <span class="ityped"></span>
+     <span class="glyphicon glyphicon-hand-up"></span> </button></a>
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   <!-- Indicators -->
+   <ol class="carousel-indicators">
+     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     <li data-target="#myCarousel" data-slide-to="1"></li>
+     <li data-target="#myCarousel" data-slide-to="2"></li>
+   </ol>
+
+   <!-- Wrapper for slides -->
+   <div class="carousel-inner">
+
+     <div class="item active">
+       <img src="https://vignette.wikia.nocookie.net/cartooncharacters/images/e/e7/290px-Sandy_Cheeks.svg.png/revision/latest?cb=20101107220426" alt="sandy3" style="width:50%;">
+       <div class="carousel-caption">
+          </div>
+     </div>
+
+     <div class="item">
+       <img src="https://vignette.wikia.nocookie.net/spongebob/images/8/84/Sandy_stock_art.png/revision/latest?cb=20181202012358" alt="sandy2" style="width:50%;">
+       <div class="carousel-caption">
+          </div>
+     </div>
+   
+     <div class="item">
+       <img src="https://i.pinimg.com/originals/b2/f7/8f/b2f78f8f08e6615a316d47ce738aece6.gif" alt="sandy" style="width:50%;">
+       <div class="carousel-caption">
+        
+       </div>
+     </div>
+ 
+   </div>
+
+</article>
+   </div></div>
+  
+<div class="rightcolumn" >     
+<article>
+<img class="magicstar" src="https://i.pinimg.com/originals/7a/44/96/7a44963bda26b3afeace3feb5232c1cf.gif" > 
+       <img class="avatarpic" src="https://scontent.fmem1-2.fna.fbcdn.net/v/t1.0-9/1235999_681687575194402_266738176_n.jpg?_nc_cat=104&_nc_ht=scontent.fmem1-2.fna&oh=0ce023dbf80ddfb75962f25df9e77f66&oe=5D0B3708" alt="Avatar" style="width:50%; border-radius: 50% 50% 50% 50%;">
+<h1>SANDY CHEEKS</h1>
+     <div >
+ <a href="#">ABOUT</a><br>
+ <a href="#">SERVICES</a><br>
+ <a href="#">CLIENTS</a><br>
+ <a href="#">CONTACT<br><br></a> </div>
+</article></div></section>
+<div class="footer">
+ <p>COPYRIGHT 2019</p>
+</div></div>
+  
+<script src="https://unpkg.com/ityped@0.0.10"></script>
+<script>
+window.ityped.init(document.querySelector('.ityped'),{
+strings: ['BOOK YOUR STUDIO TIME NOW!','SEND US A TEXT MESSAGE!', 'CLICK HERE!'], loop: true })
+</script>
+ 
+
+  
+</body>
+</html>
