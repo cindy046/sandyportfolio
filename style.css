@@ -42,6 +42,12 @@ section {
   position: absolute;
   left: 0px;
   min-height: 100vh;
+  background-image: url("https://princefan046.com/wp-content/uploads/2019/03/WATER.gif");
+  background-color: white;
+  height: 100%vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Right column */
